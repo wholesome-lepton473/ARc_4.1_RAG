@@ -1,0 +1,29 @@
+# FastAPI and core
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+python-dotenv==1.0.1
+
+# Database
+aiosqlite==0.20.0
+sqlalchemy[asyncio]==2.0.36
+
+# Vector Database
+chromadb==0.5.23
+sentence-transformers==3.3.1
+
+# HTTP client for OpenRouter
+httpx==0.28.1
+
+# Web Search
+tavily-python==0.5.0
+
+# Validation
+pydantic==2.10.4
+pydantic-settings==2.7.1
+
+# SSE streaming
+sse-starlette==2.2.1
+
+# Testing
+pytest==8.3.4
+pytest-asyncio==0.25.2

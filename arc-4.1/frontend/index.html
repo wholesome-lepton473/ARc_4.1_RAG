@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Arc 4.1 - Advanced AI Assistant with RAG capabilities" />
+    <title>Arc 4.1</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+            },
+            colors: {
+              brand: {
+                500: '#ffffff',
+                400: '#e5e5e5', 
+              }
+            },
+            animation: {
+              'pulse-slow': 'pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+            }
+          },
+        },
+      }
+    </script>
+    <style>
+      :root {
+        /* Light Mode Defaults */
+        --bg-main: #ffffff;
+        --bg-sidebar: #f9f9f9;
+        --bg-element: #f3f3f3;
+        --bg-element-hover: #e5e5e5;
+        --text-primary: #0f0f0f;
+        --text-secondary: #666666;
+        --border-color: #e5e5e5;
+        --input-bg: #f3f3f3;
+        --code-bg: #f5f5f5;
+        --code-header: #ebebeb;
+      }
+
+      [data-theme='dark'] {
+        /* Dark Mode Overrides */
+        --bg-main: #212121;
+        --bg-sidebar: #171717;
+        --bg-element: #2f2f2f;
+        --bg-element-hover: #424242;
+        --text-primary: #ececec;
+        --text-secondary: #a3a3a3;
+        --border-color: rgba(255,255,255,0.08);
+        --input-bg: #2f2f2f;
+        --code-bg: #0d0d0d;
+        --code-header: #1a1a1a;
+      }
+
+      body {
+        background-color: var(--bg-main);
+        color: var(--text-primary);
+        transition: background-color 0.3s ease, color 0.3s ease;
+      }
+      
+      /* Custom Scrollbar */
+      ::-webkit-scrollbar {
+        width: 8px;
+        height: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: transparent; 
+      }
+      ::-webkit-scrollbar-thumb {
+        background: var(--border-color); 
+        border-radius: 4px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: var(--text-secondary); 
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/index.tsx"></script>
+  </body>
+</html>
